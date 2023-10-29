@@ -1,0 +1,11 @@
+apiversion: v1
+kind: Pod
+metadata:
+  name: python-service
+  labels:
+    tier: backend
+    app: ngnix
+spec:
+  containers:
+    - name: django_backend
+      image: django

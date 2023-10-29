@@ -1,0 +1,2 @@
+#To create an enviroment
+python -m venv venv
